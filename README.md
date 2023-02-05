@@ -1,6 +1,6 @@
 Portfolio First version.  
-Techno : 
-React.js
-babel
-node.js(npm packages)
-Sass 7.1 method
+Techno :   
+React.js  
+babel  
+node.js(npm packages)  
+Sass 7.1 method  
