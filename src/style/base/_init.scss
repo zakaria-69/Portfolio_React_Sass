@@ -1,0 +1,32 @@
+/*Initialisation début de projet*/
+*, ::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: $polices_textes;
+}
+
+p{
+   
+    color: $textColor;
+   font-weight:$fontWeight;
+    font-style: italic ;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+main a{
+    color: black;
+}
