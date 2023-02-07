@@ -107,8 +107,23 @@ header{
         }
          
     }
+
+    .toggle__sidebar{
+        border: none;
+        position: relative;
+        right: 5px;
+        bottom: 32px;
+        background-color: white;
+        font-weight: 500;
+        font-size: larger;
+        color: rgba(112, 2, 112, 0.863);
+    }
+    .toggle__sidebar:hover{
+       cursor: pointer;
+    }
     
 }
+
 
 
 

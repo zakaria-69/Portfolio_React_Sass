@@ -25,7 +25,6 @@ const Navbar = () => {
                             Projets
                         </a>
                     </li>
-                    {/*<li className='nav__header__ul__item'><a href='*'>Links</a></li> */}
                     <li className='nav__header__ul__item'>
                         <a href='*'>
                             Contact
@@ -33,8 +32,6 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
-
-
         </header>
     );
 }
