@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Presentation from '../components/Presentation';
 import LeftLinks from '../components/SideBar';
 
 
@@ -8,6 +9,7 @@ const Home = () => {
             <div className='homepage__container'>               
                 <Navbar /> 
                 <LeftLinks />
+                <Presentation />
             </div>
             
                 

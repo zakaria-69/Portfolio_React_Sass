@@ -7,3 +7,11 @@
 @mixin displayNone{
     display : none;
 }
+
+@mixin sizeAnimPresentation{
+    height: 50px;
+    padding: 12px;
+    font-weight: 700;
+    font-size: large;
+    font-style: italic;
+}

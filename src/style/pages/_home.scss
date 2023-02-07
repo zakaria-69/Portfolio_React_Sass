@@ -1,45 +1,45 @@
 //gestion de la partie navigation header
 
-header{
+header {
     //border: solid black 2px;
     display: flex;
     width: 100%;
     position: fixed;
     height: 4rem;
-    box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13) ;
-    
-    .nav__header{
-       // border: solid red 2px;
+    box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13);
+    z-index: 10;
+
+    .nav__header {
+        // border: solid red 2px;
         width: 100%;
         display: flex;
 
-        &__ul{
-           // border: solid green 2px;
+        &__ul {
+            // border: solid green 2px;
             width: 100%;
             display: flex;
-           // justify-content: space-around;
             padding: 0;
             height: 100%;
             margin: 0;
-            
-             &__item{
-               // border: solid blue 2px;
+
+            &__item {
+                // border: solid blue 2px;
                 width: 20%;
                 margin: 0 auto;
 
-                &__left{
-                    border-left: dotted 0.1rem #444444;
+                &__left {
+                    border-left: dotted 0.1rem #551A8B;
                 }
 
-                & a{
-                   border-right: dotted 0.1rem #444444;
-                   @include flex_centre;
+                & a {
+                    border-right: dotted 0.1rem #551A8B;
+                    @include flex_centre;
                     height: 100%;
                     color: #444444;
                     background: #FFFFFF;
                     text-transform: uppercase;
-                    font-weight: 600;
-                    color:black;
+                    font-weight: 800;
+                    color: #551A8B;
                     /*color: #FFFFFF;
                     background: #232323;
                     text-shadow: 0 0 5px #FFF,
@@ -51,18 +51,18 @@ header{
                         0 0 55px #04d9ff,
                         0 0 75px #04d9ff;*/
                     text-shadow: 1px 0px 1px #CCCCCC,
-                     0px 1px 1px #EEEEEE,
-                      2px 1px 1px #CCCCCC,
-                       1px 2px 1px #EEEEEE,
+                        0px 1px 1px #EEEEEE,
+                        2px 1px 1px #CCCCCC,
+                        1px 2px 1px #EEEEEE,
                         3px 2px 1px #CCCCCC,
-                         2px 3px 1px #EEEEEE,
-                          4px 3px 1px #CCCCCC,
-                           3px 4px 1px #EEEEEE,
-                            5px 4px 1px #CCCCCC,
-                             4px 5px 1px #EEEEEE,
-                              6px 5px 1px #CCCCCC,
-                               5px 6px 1px #EEEEEE,
-                                7px 6px 1px #CCCCCC;
+                        2px 3px 1px #EEEEEE,
+                        4px 3px 1px #CCCCCC,
+                        3px 4px 1px #EEEEEE,
+                        5px 4px 1px #CCCCCC,
+                        4px 5px 1px #EEEEEE,
+                        6px 5px 1px #CCCCCC,
+                        5px 6px 1px #EEEEEE,
+                        7px 6px 1px #CCCCCC;
 
                 }
             }
@@ -71,44 +71,50 @@ header{
 }
 
 
-//sideBarre
+//sideBar
 
-.sidebar{
-    //border: solid red 2px;
-    @include flex_centre;
+.sidebar {
+    // border: solid red 2px;
+    display: flex;
+    align-items: center;
     position: fixed;
+    width: 10%;
     top: 64px;
     height: 100%;
-    
-    &__nav__links{
-       // border: solid green 2px;
-       height: 100%;
-       box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13) ;;
+    z-index: 9;
+    opacity: 1;
 
-        & ul{
-           // border: solid blue 2px;
+
+    &__nav__links {
+        // border: solid green 2px;
+        height: 100%;
+        box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13);
+        background-color: #fff;
+
+        & ul {
+            // border: solid blue 2px;
             padding: 0 10px;
             height: 100%;
             margin: 0;
             @include flex_centre;
             flex-direction: column;
-            transform: translateY(-32px);    
+            transform: translateY(-32px);
         }
 
-        &__li{
-           // border: solid orangered 2px;
+        &__li {
+            // border: solid orangered 2px;
             width: 100%;
-          margin: 20px 0;
+            margin: 20px 0;
         }
 
-        &__link{
-           // border: solid black 2px;
-           text-align: center;
+        &__link {
+            // border: solid black 2px;
+            text-align: center;
         }
-         
+
     }
 
-    .toggle__sidebar{
+    .toggle__sidebar {
         border: none;
         position: relative;
         right: 5px;
@@ -116,14 +122,204 @@ header{
         background-color: white;
         font-weight: 500;
         font-size: larger;
-        color: rgba(112, 2, 112, 0.863);
+        color: #551A8B;
     }
-    .toggle__sidebar:hover{
-       cursor: pointer;
+
+    .toggle__sidebar:hover {
+        cursor: pointer;
     }
-    
+
 }
 
+//presentation
+
+.presentation__container {
+    // border: solid red 2px;
+    position: relative;
+    top: 64px;
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 93.2vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+    overflow: hidden;
+    text-transform: uppercase;
+
+    color: #e5e5e5;
+    /* text-transform: uppercase;
+    height: 100vh;
+    @include flex_centre;*/
+
+    & h1 {
+        text-shadow: 0 0 7px rgba(255, 255, 255, .3),
+            0 0 3px rgba(255, 255, 255, .3);
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+
+    &__animation {
+        height: 50px;
+        overflow: hidden;
+        // margin-left: 3rem;
+        border: solid purple 2px;
+        margin: 40px 0 50px 0;
+        width: 30%;
+
+        .first {
+            //  background-color: #20a7d8;
+            @include sizeAnimPresentation;
+
+        }
+
+        .second {
+            // background-color: #CD921E;
+            @include sizeAnimPresentation;
+
+        }
+
+        .third {
+            // background-color: #c10528;
+            @include sizeAnimPresentation;
+        }
+
+        .fourth {
+            // background-color: yellowgreen;
+            @include sizeAnimPresentation;
+        }
+
+        .fifth {
+            // background-color: orangered;
+            @include sizeAnimPresentation;
+        }
+
+        .sixth {
+            // background-color: green;
+            @include sizeAnimPresentation;
+        }
+
+        .seventh {
+            // background-color: purple;
+            @include sizeAnimPresentation;
+        }
+
+        .height {
+            // background-color: black;
+            @include sizeAnimPresentation;
+        }
+
+    }
+
+    &__animation div>div {
+        padding: 0.25rem 0.75rem;
+        display: inline-block;
+        height: 50px;
+
+    }
+
+    &__animation div:first-child {
+        animation: text-animation 15s infinite 2s both;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+
+
+    }
 
 
 
+    @keyframes text-animation {
+        0% {
+            margin-top: 0;
+        }
+
+        5% {
+            margin-top: -50px;
+        }
+
+        10% {
+            margin-top: -50px;
+        }
+
+        15% {
+            margin-top: -100px;
+        }
+
+        20% {
+            margin-top: -100px;
+        }
+
+        25% {
+            margin-top: -150px;
+        }
+
+        30% {
+            margin-top: -150px;
+        }
+
+        35% {
+            margin-top: -200px;
+        }
+
+        40% {
+            margin-top: -200px;
+        }
+
+        45% {
+            margin-top: -250px;
+        }
+
+        50% {
+            margin-top: -250px;
+        }
+
+        55% {
+            margin-top: -300px;
+        }
+
+        60% {
+            margin-top: -300px;
+        }
+
+        65% {
+            margin-top: -350px;
+        }
+
+        70% {
+            margin-top: -300px;
+        }
+
+        75% {
+            margin-top: -250px;
+        }
+
+        80% {
+            margin-top: -200px;
+        }
+
+        85% {
+            margin-top: -150px;
+        }
+
+        90% {
+            margin-top: -100px;
+        }
+
+        95% {
+            margin-top: -50px;
+        }
+
+        100% {
+            margin-top: 0px;
+        }
+
+    }
+
+}

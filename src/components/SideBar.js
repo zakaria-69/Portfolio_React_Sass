@@ -40,7 +40,7 @@ const LeftLinks = () => {
                     <button className='toggle__sidebar'
                         onClick={handleToggleSidebar}
                         id='toggleSidebar'
-                        title='réseaux'>&gt;</button>
+                        title='réseaux'>&lt;</button>
                 </div>)
                 :
                 (
