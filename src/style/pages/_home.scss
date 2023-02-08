@@ -1,5 +1,3 @@
-//gestion de la partie navigation header
-
 header {
     //border: solid black 2px;
     display: flex;
@@ -138,20 +136,20 @@ header {
     position: relative;
     top: 64px;
     z-index: 8;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: top;
-    height: 93.2vh;
+    align-items: center;
+    height: 93.2vh;*/
     margin: 0;
     padding: 0;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
     background-size: cover;
     overflow: hidden;
-    text-transform: uppercase;
-
+    //text-transform: uppercase;
+    
     color: #e5e5e5;
-    /* text-transform: uppercase;
+   /* text-transform: uppercase;
     height: 100vh;
     @include flex_centre;*/
 
@@ -159,64 +157,62 @@ header {
         text-shadow: 0 0 7px rgba(255, 255, 255, .3),
             0 0 3px rgba(255, 255, 255, .3);
         text-align: center;
-        margin-top: 50px;
-        margin-right: 50px;
+        text-transform: uppercase;
     }
 
 
     &__animation {
         height: 50px;
         overflow: hidden;
-        // margin-left: 3rem;
+        margin-left: 1rem;
         border: solid purple 2px;
-        margin: 40px 0 50px 0;
-        width: 30%;
+        margin-left: 0;
 
         .first {
-            //  background-color: #20a7d8;
+            color: #20a7d8;
             @include sizeAnimPresentation;
-
+            
         }
 
         .second {
-            // background-color: #CD921E;
+            color: #CD921E;
             @include sizeAnimPresentation;
 
         }
 
         .third {
-            // background-color: #c10528;
+            color: #c10528;
             @include sizeAnimPresentation;
         }
 
         .fourth {
-            // background-color: yellowgreen;
+           color: yellowgreen;
             @include sizeAnimPresentation;
         }
 
         .fifth {
-            // background-color: orangered;
+            color: orangered;
             @include sizeAnimPresentation;
         }
 
         .sixth {
-            // background-color: green;
+            color: green;
             @include sizeAnimPresentation;
         }
 
         .seventh {
-            // background-color: purple;
+            color: white;
             @include sizeAnimPresentation;
         }
 
         .height {
-            // background-color: black;
+            color: black;
             @include sizeAnimPresentation;
         }
 
     }
 
-    &__animation div>div {
+    &__animation div > div {
         padding: 0.25rem 0.75rem;
         display: inline-block;
         height: 50px;
@@ -224,102 +220,103 @@ header {
     }
 
     &__animation div:first-child {
-        animation: text-animation 15s infinite 2s both;
+       animation: text-animation 15s infinite 2s both;
         width: 100%;
         height: 50px;
         text-align: center;
-        animation: name duration timing-function delay iteration-count direction fill-mode;
-
-
-    }
-
-
-
-    @keyframes text-animation {
-        0% {
-            margin-top: 0;
-        }
-
-        5% {
-            margin-top: -50px;
-        }
-
-        10% {
-            margin-top: -50px;
-        }
-
-        15% {
-            margin-top: -100px;
-        }
-
-        20% {
-            margin-top: -100px;
-        }
-
-        25% {
-            margin-top: -150px;
-        }
-
-        30% {
-            margin-top: -150px;
-        }
-
-        35% {
-            margin-top: -200px;
-        }
-
-        40% {
-            margin-top: -200px;
-        }
-
-        45% {
-            margin-top: -250px;
-        }
-
-        50% {
-            margin-top: -250px;
-        }
-
-        55% {
-            margin-top: -300px;
-        }
-
-        60% {
-            margin-top: -300px;
-        }
-
-        65% {
-            margin-top: -350px;
-        }
-
-        70% {
-            margin-top: -300px;
-        }
-
-        75% {
-            margin-top: -250px;
-        }
-
-        80% {
-            margin-top: -200px;
-        }
-
-        85% {
-            margin-top: -150px;
-        }
-
-        90% {
-            margin-top: -100px;
-        }
-
-        95% {
-            margin-top: -50px;
-        }
-
-        100% {
-            margin-top: 0px;
-        }
+        //animation: name duration timing-function delay iteration-count direction fill-mode;
+        
 
     }
 
+    &__description{
+        width: 100%;
+        height: 78vh;
+        border: solid black 2px;
+        margin-left: 45px;
+        display: flex;
+        align-items: center;
+        //justify-content: space-around;
+
+        &__left{
+            border: double white 4px;
+            width: 70%;
+           // margin-left: 45px;
+           // height: 80%;
+           min-height: 80%;
+            max-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: -1;
+            border-right: none;
+            border-radius: 20px ;
+
+            &__textContent{
+                padding: 20px 0 ;
+                width: 80%;
+                line-height: 1.4rem;
+                font-size: 1rem;
+
+                &__profession{
+                    //text-transform: uppercase;
+                    text-decoration: underline double 1px #CD921E;
+                    color: #CD921E;
+                }
+            }
+        }
+
+        &__right{
+            border: double white 4px;
+            min-height: 60%;
+            max-height: 90%;          
+            width: 50%;
+            //border-radius: 50% ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            right: 6%;
+            z-index: 1;
+            border-left: none;
+            border-radius: 20px ;
+
+            &__img{
+                border: double white 4px;
+                //width: auto;
+                height: 13rem;
+                object-fit: cover;
+                display: flex;
+                border-radius: 50%;
+                margin-top: 10px;
+               
+                & img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+            &__ofGripSentence{
+                text-align: center;
+            }
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width : 530px) {
+    .presentation__container__description{
+        //border: solid yellow 5px;
+        height: auto;
+        width: 92%;
+        margin: 0 auto;
+        border: none;
+    }
 }
