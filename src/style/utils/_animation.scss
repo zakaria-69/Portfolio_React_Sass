@@ -84,3 +84,36 @@
     }
 
 }
+
+
+// animation delay effect
+
+@keyframes delay_items_technos{
+
+    0%{
+        transform: scale(0);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+//animation delay timing
+
+/*.delay_1{
+    animation: delay_items_menu 800ms  linear both;
+}
+
+.delay_2{
+    animation: delay_items_menu 800ms .4s linear both;
+}
+
+.delay_3{
+    animation: delay_items_menu 800ms .8s linear both;
+}
+
+.delay_4{
+    animation: delay_items_menu 800ms 1.2s linear both;
+}*/

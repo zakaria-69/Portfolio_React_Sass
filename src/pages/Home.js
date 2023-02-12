@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Presentation from '../components/Presentation';
 import LeftLinks from '../components/SideBar';
+import Technologie from '../components/Technologie';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
                 <Navbar /> 
                 <LeftLinks />
                 <Presentation />
+                <Technologie />
             </div>
             
                 

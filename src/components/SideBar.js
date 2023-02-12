@@ -31,7 +31,7 @@ const LeftLinks = () => {
                             <li className='sidebar__nav__links__li'>
                                 <a href='https://github.com/zakaria-69'
                                     className='sidebar__nav__links__li__link github'
-                                    title='linkedin'>
+                                    title='github'>
                                     <i className="fa-brands fa-github fa-xl"></i>
                                 </a>
                             </li>
