@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cv = () => {
         return (
-            <section className='cv__container'>
+            <section className='cv__container' id='cv'>
                 <h1>Cv</h1>
                 <div className='cv__container__page'>
                 <div className='cv__container__page__screenshot'>

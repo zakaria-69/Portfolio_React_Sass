@@ -11,12 +11,12 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='nav__header__ul__item'>
-                        <a href='*'>
+                        <a href='#technos'>
                             Technos
                         </a>
                     </li>
                     <li className='nav__header__ul__item'>
-                        <a href='*'>
+                        <a href='#cv'>
                             CV
                         </a>
                     </li>

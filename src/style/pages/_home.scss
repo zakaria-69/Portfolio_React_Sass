@@ -438,12 +438,15 @@ top: 64px;
 display: flex;
 flex-direction: column;
 border-top: dotted #551A8B 2px;
+ background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,148,153,1) 100%, rgba(0,212,255,1) 100%);
 
     & h1{
         text-align: center;
-        color: #551A8B;
+        color: white;
         text-transform: uppercase;
-        text-decoration: underline double 2px #551A8B;
+        text-decoration: underline double 2px white;
+        font-weight: 400;
     }
 
     &__page{

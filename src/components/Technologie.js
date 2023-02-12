@@ -7,7 +7,7 @@ const Technologie = () => {
 
     return (
 
-        <div className='technos'>
+        <div className='technos' id='technos'>
             <h1>Technologies</h1>
             <section className='technos__container'>
                 <AnimationOnScroll animateIn="animate__backInLeft" style={{ animationDelay: '0.2s' }}>
