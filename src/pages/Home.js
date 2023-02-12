@@ -1,4 +1,5 @@
 import React from 'react';
+import Cv from '../components/Cv';
 import Navbar from '../components/Navbar';
 import Presentation from '../components/Presentation';
 import LeftLinks from '../components/SideBar';
@@ -11,7 +12,8 @@ const Home = () => {
                 <Navbar /> 
                 <LeftLinks />
                 <Presentation />
-                <Technologie />
+                 <Technologie />
+                <Cv />
             </div>
             
                 

@@ -10,7 +10,7 @@ const Technologie = () => {
         <div className='technos'>
             <h1>Technologies</h1>
             <section className='technos__container'>
-                <AnimationOnScroll animateIn="animate__backInLeft" style={{ animationDelay: '0s' }} className='delay_1'>
+                <AnimationOnScroll animateIn="animate__backInLeft" style={{ animationDelay: '0.2s' }}>
                     <div className='technos__container__frontend'>
                         <h2>frontend</h2>
                         <div className='technos__container__frontend__list'>
@@ -39,7 +39,7 @@ const Technologie = () => {
                         </div>
                     </div>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn="animate__backInDown" style={{ animationDelay: '0.4s' }} className='delay_2'>
+                <AnimationOnScroll animateIn="animate__backInDown" style={{ animationDelay: '0.4s' }}>
                     <div className='technos__container__backend'>
                         <h2>backend</h2>
                         <div className='technos__container__backend__list'>
@@ -63,7 +63,7 @@ const Technologie = () => {
                         </div>
                     </div>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn="animate__backInUp" style={{ animationDelay: '0.8s' }} className='delay_3'>
+                <AnimationOnScroll animateIn="animate__backInDown" style={{ animationDelay: '0.8s' }}>
                     <div className='technos__container__databases'>
                         <h2>Databases</h2>
                         <div className='technos__container__databases__list'>
@@ -82,7 +82,7 @@ const Technologie = () => {
                         </div>
                     </div>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn="animate__backInRight" style={{ animationDelay: '1.2s' }} className='delay_4'>
+                <AnimationOnScroll animateIn="animate__backInRight" style={{ animationDelay: '1.2s' }}>
                     <div className='technos__container__extras'>
                         <h2>extras</h2>
                         <div className='technos__container__extras__list'>
@@ -98,7 +98,7 @@ const Technologie = () => {
                                     </img>
                                 </li>
                                 <li className='technos__container__extras__list__item'>
-                                    <p>Optimisation/SEO</p>
+                                    <p>SEO</p>
                                     <img src='../../../logo_technos_portfolio/Seo_opti_logo.png' alt='logo_seo'>
                                     </img>
                                 </li>

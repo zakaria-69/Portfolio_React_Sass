@@ -1,3 +1,8 @@
+#root{
+//border: solid blue 2px;
+height: 100%;
+}
+
 header {
     //border: solid black 2px;
     display: flex;
@@ -139,7 +144,7 @@ header {
     /*display: flex;
     justify-content: center;
     align-items: center;
-    height: 93.2vh;*/
+    */
     margin: 0;
     padding: 0;
     // background: rgb(2,0,36);
@@ -152,7 +157,6 @@ header {
     
     color: #e5e5e5;
    /* text-transform: uppercase;
-    height: 100vh;
     @include flex_centre;*/
 
     & h1 {
@@ -424,14 +428,216 @@ justify-content: space-around;
 }
 
 
+//Cv 
 
+.cv__container{
+width: 100%;
+position: relative;
+top: 64px;
+//border: solid blue 2px;
+display: flex;
+flex-direction: column;
+border-top: dotted #551A8B 2px;
+
+    & h1{
+        text-align: center;
+        color: #551A8B;
+        text-transform: uppercase;
+        text-decoration: underline double 2px #551A8B;
+    }
+
+    &__page{
+       // display: flex;
+        // justify-content: center;
+         width: 100%;
+        //border: solid red 2px;
+        //margin: 0 auto;
+
+        &__screenshot{
+           //border: solid green 2px;
+            // width: 60%;
+             display: flex;
+            justify-content: center;
+            
+
+            & img{
+                border: double #551A8B 3px;
+                margin: 40px 0;
+                object-fit: cover;
+                //position: relative;
+            }
+            
+        }
+        
+            &__download{
+                border: double #551A8B 4px;
+                border-radius: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                //margin: auto 0;
+                width: 20%;
+                height: 6rem;
+                background: rgb(2, 0, 36);
+                background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
+                margin: 0 auto 30px auto;
+                min-width: 30%;
+
+                &__item{
+                    width: 100%;
+                    text-align: center;
+                }
+                    & p{
+                        color: #CCCCCC;
+                    }
+            
+                
+            }
+
+
+    }
+
+        
+}
 
 @media screen and (max-width : 530px) {
+
+html{
+    width: 100vw;
+   // border: solid red 2px;
+}
+
+//sidebar
+
+.sidebar__container{
+    //  border: solid red 2px;
+     height: 100%;
+    //  position: relative;
+    //  top: 64px;
+     display: flex;
+     flex-direction: row;
+     
+    // position: fixed;
+    // top: 64px;
+    // width: 100%;
+}
+
+.sidebar{
+    // border: solid blue 2px;
+//    position: relative;
+//    top: 64px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+    
+    
+
+    &__nav__links{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        box-shadow: none;
+
+        & ul{
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            height: auto;
+            display: flex;
+            transform: translateY(0);
+            
+        }
+
+        & li{
+            width: auto;
+        }
+    }
+
+    #toggleSidebar{
+        // display: none;
+        position: relative;
+        top: 17px;
+        right: 0;
+        // border: solid red 2px;
+        // top: 50px;
+        // left: 20px;
+        // height: 2px;
+        // color: black;
+        // font-weight: 900;
+        // border: solid red 3px;
+        //background-color: #fff;
+        
+        // top: 34px;
+        // right : 500px;
+       // transform: translate(-50%,50%);
+        transform: rotate( 1.25turn);
+    }
+
+}
+
+//Technos
+
+.technos{
+    padding: 0;
+}
+
+.technos__container{
+   // border: solid red 2px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &__frontend{
+        width: 100%;
+    }
+
+    &__backend{
+        width: 100%;
+    }
+
+    &__databases{
+        width: 100%;
+    }
+
+    &__extras{
+        width: 100%;
+    }
+}
+
+
+//CV
+
+.cv__container__page__screenshot img{
+    width: 96%;
+
+}
     .presentation__container__description{
         //border: solid yellow 5px;
         height: auto;
-        width: 92%;
+        width: 100%;
         margin: 0 auto;
         border: none;
+        display: flex;
+        flex-direction: column-reverse;
+
+        &__right{
+            border: double white 4px;
+            border-bottom: none;
+            position: initial;
+            width: 98%;
+        }
+
+        &__left{
+            border: double white 4px;
+            border-top: none;
+            position: initial;
+            width: 98%;
+        }
     }
 }
