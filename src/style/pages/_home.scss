@@ -310,6 +310,7 @@ header {
 
             &__ofGripSentence{
                 text-align: center;
+                margin: 20px 2px;
             }
         }
     }
@@ -528,7 +529,7 @@ border-top: dotted #551A8B 2px;
     &__slideshow{
         width: 80%;
         margin: 0 auto;
-        box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13);
+        box-shadow: .25rem 0.4rem 0.5rem 0 rgba(85, 26, 139, 0.35);
 
         &__each__slide{
             height: 100%;
@@ -552,7 +553,7 @@ border-top: dotted #551A8B 2px;
                     height: auto;
                     display: block;
                     max-height: 344px;
-                    max-width: 90%;                   
+                    max-width: 85%;                   
                 }
             }
         }     
@@ -563,6 +564,14 @@ border-top: dotted #551A8B 2px;
 
 html{
     width: 100vw;
+}
+
+
+.nav__header__ul__item a{
+    font-size: x-small;
+    font-weight: bold;
+    text-shadow: none !important;
+    padding: 0 20px;
 }
 
 //sidebar
@@ -647,6 +656,11 @@ html{
 .cv__container__page__screenshot img{
     width: 96%;
 
+}
+
+.cv__container__page__download{
+    width: 80%;
+    height: 3rem;
 }
     .presentation__container__description{
         //border: solid yellow 5px;

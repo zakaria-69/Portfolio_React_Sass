@@ -12,9 +12,9 @@ const Projets = () => {
         indicators : true , 
         arrows :true
     }
-    
+
     return (
-        <div className='projets__container'>
+        <div className='projets__container' id='projets'>
             <div>
                 <h1>Projets</h1>
             </div>
@@ -59,6 +59,13 @@ const Projets = () => {
                         <div className='projets__container__slideshow__each__slide__container'>
                             <a href='https://github.com/zakaria-69/Groupomania_cree_un_reseau_social_d_entreprise'>
                                 <img src='../../../img_projects_carousel/groupomania.png' alt='groupomania_logo' title='groupomania_projet' />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='projets__container__slideshow__each__slide'>
+                        <div className='projets__container__slideshow__each__slide__container'>
+                            <a href='https://zakaria-69.github.io/phaser_3_game_initiation/'>
+                                <img src='../../../img_projects_carousel/phaser3.png' alt='phaser3_jeux_image' title='phaser3_jeux_projet' />
                             </a>
                         </div>
                     </div>

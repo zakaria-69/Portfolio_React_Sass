@@ -21,7 +21,7 @@ const Navbar = () => {
                         </a>
                     </li>
                     <li className='nav__header__ul__item'>
-                        <a href='*'>
+                        <a href='#projets'>
                             Projets
                         </a>
                     </li>

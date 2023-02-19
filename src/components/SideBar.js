@@ -10,7 +10,7 @@ const LeftLinks = () => {
     
     return (
         <div className='sidebar__container'>
-            {toggleSidebar ? (
+            {!toggleSidebar ? (
                 <div className='sidebar'>
                     <nav className='sidebar__nav__links'>
                         <ul>
