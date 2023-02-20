@@ -238,7 +238,7 @@ header {
 
     &__description{
         width: 100%;
-        //height: 78vh;
+        min-height: 70vh;
        // border: solid black 2px;
         margin-left: 45px;
         display: flex;
@@ -250,8 +250,8 @@ header {
             width: 70%;
            // margin-left: 45px;
            // height: 80%;
-           min-height: 80%;
-            max-height: 100%;
+        //    min-height: 80%;
+            // max-height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -260,6 +260,7 @@ header {
             border-right: none;
             border-radius: 20px ;
             margin: 5px 0;
+            padding: 5rem;
 
             &__textContent{
                 padding: 20px 0 ;
@@ -290,6 +291,7 @@ header {
             z-index: 1;
             border-left: none;
             border-radius: 20px ;
+            padding:2rem;
 
             &__img{
                 border: double white 4px;
@@ -526,7 +528,7 @@ border-top: dotted #551A8B 2px;
     &__slideshow{
         width: 80%;
         box-shadow: .25rem 0.4rem 0.5rem 0 rgba(85, 26, 139, 0.35);
-        margin: 15% auto 25% auto;
+        margin: 15% auto 10% auto;
     
 
         &__each__slide{
@@ -632,8 +634,8 @@ border-top: dotted #551A8B 2px;
                     
                 }
                 & textarea{
-                    max-width: 23rem;
-                    min-width: 23rem;
+                    max-width: 20rem;
+                    min-width: 20rem;
                      max-height: 23rem;
                      min-height: 5rem;
                     margin: 0 auto;
