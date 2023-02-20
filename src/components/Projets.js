@@ -70,7 +70,6 @@ const Projets = () => {
                         </div>
                     </div>
                 </Slide>
-
             </div>
         </div>
     );

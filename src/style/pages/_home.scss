@@ -141,6 +141,7 @@ header {
     position: relative;
     top: 64px;
     z-index: 8;
+    min-height: 100vh;
     /*display: flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +238,7 @@ header {
 
     &__description{
         width: 100%;
-        height: 78vh;
+        //height: 78vh;
        // border: solid black 2px;
         margin-left: 45px;
         display: flex;
@@ -509,7 +510,6 @@ border-top: dotted #551A8B 2px;
 .projets__container{
     position: relative;
     top: 64px;
-     height: 100vh;
      flex-direction: column;
      display: flex;
     align-items: center;
@@ -517,9 +517,6 @@ border-top: dotted #551A8B 2px;
 
     & h1{
         text-align: center;
-       position: absolute;
-        bottom: 87%;
-       transform: translateX(-50%);
        text-align: center;
        color: #551A8B;
        text-transform: uppercase;
@@ -528,8 +525,9 @@ border-top: dotted #551A8B 2px;
 
     &__slideshow{
         width: 80%;
-        margin: 0 auto;
         box-shadow: .25rem 0.4rem 0.5rem 0 rgba(85, 26, 139, 0.35);
+        margin: 15% auto 25% auto;
+    
 
         &__each__slide{
             height: 100%;
@@ -537,7 +535,7 @@ border-top: dotted #551A8B 2px;
             &__container{
                 width: 93%;
                 margin: 0 auto;
-                height: 100%;
+                 height: 100%;
 
                 & a{
                     width: 100%;
@@ -552,7 +550,7 @@ border-top: dotted #551A8B 2px;
                     object-fit: cover;
                     height: auto;
                     display: block;
-                    max-height: 344px;
+                    // max-height: 344px;
                     max-width: 85%;                   
                 }
             }
