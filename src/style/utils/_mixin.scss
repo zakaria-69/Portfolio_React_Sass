@@ -54,3 +54,20 @@
 @mixin displayNone{
     display: none;
 }
+
+
+@mixin titleWeight{
+    font-weight: 400;
+}
+
+
+#c-yup{
+color: tomato;
+text-align: center;
+
+&::before{
+    display: inline;
+    content: '🚩 ';
+}
+}
+

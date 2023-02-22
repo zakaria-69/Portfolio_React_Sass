@@ -18,6 +18,7 @@ const Projets = () => {
             <div>
                 <h1>Projets</h1>
             </div>
+            <div className='projets__container__subcontainer'>
             <div className='projets__container__slideshow'>
                 <Slide {...proprietes}>
                     <div className='projets__container__slideshow__each__slide'>
@@ -70,6 +71,7 @@ const Projets = () => {
                         </div>
                     </div>
                 </Slide>
+            </div>
             </div>
         </div>
     );
