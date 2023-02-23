@@ -1,0 +1,75 @@
+#root{
+    //border: solid blue 2px;
+    height: 100%;
+    }
+    
+    header {
+        //border: solid black 2px;
+        display: flex;
+        width: 100%;
+        position: fixed;
+        height: 4rem;
+        box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13);
+        z-index: 10;
+    
+        .nav__header {
+            // border: solid red 2px;
+            width: 100%;
+            display: flex;
+    
+            &__ul {
+                // border: solid green 2px;
+                width: 100%;
+                display: flex;
+                padding: 0;
+                height: 100%;
+                margin: 0;
+    
+                &__item {
+                    // border: solid blue 2px;
+                    width: 20%;
+                    margin: 0 auto;
+    
+                    &__left {
+                        border-left: dotted 0.1rem #551A8B;
+                    }
+    
+                    & a {
+                        border-right: dotted 0.1rem #551A8B;
+                        @include flex_centre;
+                        height: 100%;
+                        color: #444444;
+                        background: #FFFFFF;
+                        text-transform: uppercase;
+                        font-weight: 800;
+                        color: #551A8B;
+                        /*color: #FFFFFF;
+                        background: #232323;
+                        text-shadow: 0 0 5px #FFF,
+                            0 0 10px #04d9ff,
+                            0 0 15px #04d9ff,
+                            0 0 20px #04d9ff,
+                            0 0 30px #04d9ff,
+                            0 0 40px#04d9ff,
+                            0 0 55px #04d9ff,
+                            0 0 75px #04d9ff;*/
+                        text-shadow: 1px 0px 1px #CCCCCC,
+                            0px 1px 1px #EEEEEE,
+                            2px 1px 1px #CCCCCC,
+                            1px 2px 1px #EEEEEE,
+                            3px 2px 1px #CCCCCC,
+                            2px 3px 1px #EEEEEE,
+                            4px 3px 1px #CCCCCC,
+                            3px 4px 1px #EEEEEE,
+                            5px 4px 1px #CCCCCC,
+                            4px 5px 1px #EEEEEE,
+                            6px 5px 1px #CCCCCC,
+                            5px 6px 1px #EEEEEE,
+                            7px 6px 1px #CCCCCC;
+    
+                    }
+                }
+            }
+        }
+    }
+    
