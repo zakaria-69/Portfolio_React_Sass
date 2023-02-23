@@ -1,5 +1,5 @@
 import React from 'react';
-
+import emailjs from '@emailjs/browser'
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
@@ -44,8 +44,28 @@ const Contact = () => {
         resolver: yupResolver(schema),
     });
 
-    const onSubmit = () => {
-        alert("merci d'avoir rempli nôtre formulaire");
+    const onSubmit = (data, r) => {
+        alert("Merci d'avoir rempli ce formulaire.Vôtre message à bien été envoyé! 😃👍 " );
+        const templateId = process.env.REACT_APP_API_TEMPLATEID;
+        const serviceId = process.env.REACT_APP_API_SERVICEID;
+
+        sendFeedback(serviceId,templateId,{
+            nom : data.nom,
+            prenom : data.prenom,
+            email : data.email,
+            objet : data.objet,
+            message : data.message,
+            reply_to : r.target.reset(),
+        })       
+    }
+
+    const sendFeedback = (serviceId,templateId,variables) => {
+        emailjs
+        .send(serviceId,templateId,variables,process.env.REACT_APP_API_USERID)
+        .then((res) => {
+            console.log("succes",res)
+        })
+        .catch((err) => alert("une erreur est survenue!"))
     }
 
     return (
@@ -115,16 +135,16 @@ const Contact = () => {
                         {errors.message && <p id='c-yup'>{errors.message.message}</p>}
                         <br />
                         <p>(Les champs dotées d'une " * " sont des champs obligatoires).</p>
-                        <button type='submit'>Envoyer</button>
+                        <button type='Submit'>Envoyer</button>
                     </form>
                 </div>
                 <div className='contact__container__mesInfos'>
                     <h2>Mes infos</h2>
-                    <a href='mailto:zak.ladjrafi@gmail.com'><i class="fa-solid fa-envelope"></i>zak.ladjrafi@gmail.com</a>
+                    <a href='mailto:zak.ladjrafi@gmail.com'><i className="fa-solid fa-envelope"></i>zak.ladjrafi@gmail.com</a>
                     <br />
-                    <a href='tel:0782479774'><i class="fa-solid fa-phone"></i>+33782479774</a>
+                    <a href='tel:0782479774'><i className="fa-solid fa-phone"></i>+33782479774</a>
                     <br />
-                    <a href='https://goo.gl/maps/Y9xoEBogH4r2j7iP9' target="__blank"><i class="fa-solid fa-location-dot"></i>2 rue de la Mairie 69340</a>
+                    <a href='https://goo.gl/maps/Y9xoEBogH4r2j7iP9' target="__blank"><i className="fa-solid fa-location-dot"></i>2 rue de la Mairie 69340</a>
                 </div>
             </div>
         </div>
