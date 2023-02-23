@@ -6,7 +6,6 @@ import 'animate.css';
 const Technologie = () => {
 
     return (
-
         <div className='technos' id='technos'>
             <h1>Technologies</h1>
             <section className='technos__container'>

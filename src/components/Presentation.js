@@ -54,7 +54,7 @@ const Presentation = () => {
                         les jeux-vidéos et plus récemment les applications,comment intérragisseaient entre eux les éléments
                         et les appareils pour obtenir le résultat éscompté,c'est de cette réflexion que m'est venu l'envie d'apprendre
                         des languages informatique.Après quelques projets personnel et ayant vu le pouvoir de ces outils,j'ai
-                        vu mon intérêt et mon envie d'en apprendre encore plus décuplée.<br />
+                        vu mon intérêt et mon envie d'en apprendre encore plus, décuplée.<br />
                         J'ai donc suivi cette voie sur un cursur professionnalisant en titre de
                         <span className='presentation__container__description__left__textContent__profession'> développeur intégrateur Web </span>
                         au cours de l'année 2022 et j'aspire à pouvoir

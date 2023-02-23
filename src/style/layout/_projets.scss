@@ -1,65 +1,59 @@
-
 //Projets
 
-.projets__container{
+.projets__container {
     position: relative;
     top: 64px;
     flex-direction: column;
     display: flex;
-   align-items: center;
+    align-items: center;
     justify-content: center;
     background-color: #f6f6f6;
-   //background: rgb(32,167,216);
-//background: linear-gradient(0deg, rgba(195,144,241,1) 0%, rgba(32,167,216,1) 100%);
-//background: rgb(32,167,216);
-//background: linear-gradient(0deg, rgba(32,167,216,1) 0%, rgba(0,0,0,0.9948354341736695) 100%);
-   & h1{
-       text-align: center;
-      color: #CD921E;
-      text-transform: uppercase;
-      text-decoration: underline double 1px;
-      @include titleWeight;
-   }
 
-   &__subcontainer{
-       width: 100%;
-       margin: 16rem auto;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
+    & h1 {
+        text-align: center;
+        color: #CD921E;
+        text-transform: uppercase;
+        text-decoration: underline double 1px;
+        @include titleWeight;
+    }
 
-   &__slideshow{
-       width: 80%;
-       box-shadow: .25rem 0.4rem 0.5rem 0 rgba(205 , 146, 30, 0.35);
-       background-color: white;
-   
+    &__subcontainer {
+        width: 100%;
+        margin: 16rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-       &__each__slide{
-           height: 100%;
+    &__slideshow {
+        width: 80%;
+        box-shadow: .25rem 0.4rem 0.5rem 0 rgba(205, 146, 30, 0.35);
+        background-color: white;
 
-           &__container{
-               width: 93%;
-               margin: 0 auto;
+        &__each__slide {
+            height: 100%;
+
+            &__container {
+                width: 93%;
+                margin: 0 auto;
                 height: 100%;
 
-               & a{
-                   width: 100%;
-                   display: flex;
-                   justify-content: center;
-                   align-items: center;
-                   height: 100%;
+                & a {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                }
 
-               }           
-               & img{
-                   margin: 0 auto;
-                   object-fit: cover;
-                   height: auto;
-                   display: block;
-                   // max-height: 344px;
-                   max-width: 85%;                   
-               }
-           }
-       }     
-   }   
+                & img {
+                    margin: 0 auto;
+                    object-fit: cover;
+                    height: auto;
+                    display: block;
+                    max-width: 85%;
+                }
+            }
+        }
+    }
 }

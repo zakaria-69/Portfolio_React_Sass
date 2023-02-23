@@ -7,7 +7,7 @@ const LeftLinks = () => {
         setToggleSidebar(!toggleSidebar)
         console.log('sidebar toggled')
     }
-    
+
     return (
         <div className='sidebar__container'>
             {!toggleSidebar ? (

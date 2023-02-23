@@ -1,6 +1,6 @@
 //footer 
 
-.footer__container{
+.footer__container {
     position: relative;
     top: 64px;
     display: flex;
@@ -9,92 +9,87 @@
     align-items: center;
     width: 100%;
     border-top: double #CD921E 4px;
-    // background: rgb(113,113,113);
-// background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
-//background: black;
-background-color: #f6f6f6;
-//background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 41%);
-    &__links{
+    background-color: #f6f6f6;
+
+    &__links {
         width: 100%;
         display: flex;
         justify-content: space-around;
-       
 
-        &__cv{
+        &__cv {
             @include footerLinks;
 
-            & a{
-                color:#CD921E;
+            & a {
+                color: #CD921E;
             }
 
-            & a:hover{
-                color: #20a7d8; 
+            & a:hover {
+                color: #20a7d8;
             }
 
-            & a:active{
-                color: #551A8B; 
-            }
-            
-        }
-
-        &__linkedin{
-            @include footerLinks;
-
-            & a{
-                color:#CD921E;
-            }
-
-            & a:hover{
-                color: #20a7d8; 
-            }
-
-            & a:active{
-                color: #551A8B; 
+            & a:active {
+                color: #551A8B;
             }
         }
 
-        &__twitter{           
+        &__linkedin {
             @include footerLinks;
 
-            & a{
-                color:#CD921E;
+            & a {
+                color: #CD921E;
             }
 
-            & a:hover{
-                color: #20a7d8; 
+            & a:hover {
+                color: #20a7d8;
             }
 
-            & a:active{
-                color: #551A8B; 
+            & a:active {
+                color: #551A8B;
             }
         }
-        &__github{           
+
+        &__twitter {
             @include footerLinks;
 
-            & a{
-                color:#CD921E;
+            & a {
+                color: #CD921E;
             }
 
-            & a:hover{
-                color: #20a7d8; 
+            & a:hover {
+                color: #20a7d8;
             }
 
-            & a:active{
-                color: #551A8B; 
+            & a:active {
+                color: #551A8B;
             }
+        }
+
+        &__github {
+            @include footerLinks;
+
+            & a {
+                color: #CD921E;
+            }
+
+            & a:hover {
+                color: #20a7d8;
+            }
+
+            & a:active {
+                color: #551A8B;
+            }
+        }
     }
-    }
 
-    & p{
+    & p {
         text-align: center;
         font-weight: 700;
         text-decoration: underline;
-        color: #CD921E;;
+        color: #CD921E;
+        ;
 
-        & .fa-copyright{
+        & .fa-copyright {
             margin: auto 5px;
-        }    
+        }
     }
-    
-    
 }

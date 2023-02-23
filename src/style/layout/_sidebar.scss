@@ -1,7 +1,6 @@
 //sideBar
 
 .sidebar {
-    // border: solid red 2px;
     display: flex;
     align-items: center;
     position: fixed;
@@ -13,13 +12,11 @@
 
 
     &__nav__links {
-        // border: solid green 2px;
         height: 100%;
         box-shadow: .25rem 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.13);
         background-color: #fff;
 
         & ul {
-            // border: solid blue 2px;
             padding: 0 10px;
             height: 100%;
             margin: 0;
@@ -29,21 +26,19 @@
         }
 
         &__li {
-            // border: solid orangered 2px;
             width: 100%;
             margin: 20px 0;
         }
 
-        & a{
-            color:  #CD921E;
+        & a {
+            color: #CD921E;
 
-            &:hover{
+            &:hover {
                 color: #551A8B;
             }
         }
 
         &__link {
-            // border: solid black 2px;
             text-align: center;
         }
 
@@ -57,7 +52,7 @@
         background-color: white;
         font-weight: 500;
         font-size: larger;
-        color:  #CD921E;
+        color: #CD921E;
     }
 
     .toggle__sidebar:hover {

@@ -1,114 +1,115 @@
 //technologies
-.technos{
+.technos {
     position: relative;
     top: 64px;
     text-align: center;
-    padding:40px ;
+    padding: 40px;
     background-image: url('../../../public/img/technologie_BG.png');
-    
-     
-   & h1{
-    color: #CD921E;
-    text-decoration: underline 1px double #CD921E;
-    text-transform: uppercase;
-    @include titleWeight;
-   }
+
+
+    & h1 {
+        color: #CD921E;
+        text-decoration: underline 1px double #CD921E;
+        text-transform: uppercase;
+        @include titleWeight;
+    }
 }
 
-.technos__container{
-width: 100%;
-display: flex;
-text-align: center;
-justify-content: space-around;
+.technos__container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 
 
-    & h2{
-    // border: solid orangered 2px;
-    text-decoration: double underline 1px;
-    color: #CD921E ;
-    font-weight: 400;
+    & h2 {
+        text-decoration: double underline 1px;
+        color: #CD921E;
+        font-weight: 400;
     }
-        &__frontend{
-            width: 20vw;
-            animation-duration: 5s;
-    
-            &__list{
-                height: 92%;
 
-                & ul{
-                    @include spaceBetweenTechnosItems;
-                
-                }
+    &__frontend {
+        width: 20vw;
+        animation-duration: 5s;
 
-                    & img{
-                         @include ImageSizeTechnos;
-
-                    }
-
-                        & p{
-                            @include colorAndDecorationText;
-                        }
-            }
-        }
-
-        &__backend{
-            width: 20vw;
-            animation-duration: 5s;
-
-            &__list{
+        &__list {
             height: 92%;
 
-                & ul{
-                @include spaceBetweenTechnosItems;           
-                }
+            & ul {
+                @include spaceBetweenTechnosItems;
 
-                    & img{
-                        @include ImageSizeTechnos;
-                    }
-                        & p{
-                            @include colorAndDecorationText;
-                        }
+            }
+
+            & img {
+                @include ImageSizeTechnos;
+
+            }
+
+            & p {
+                @include colorAndDecorationText;
             }
         }
+    }
 
+    &__backend {
+        width: 20vw;
+        animation-duration: 5s;
 
-        &__databases{
-            width: 20vw;
-            animation-duration: 5s;
+        &__list {
+            height: 92%;
 
-            &__list{
-                height: 92%;
+            & ul {
+                @include spaceBetweenTechnosItems;
+            }
 
-                & ul{
-                    @include spaceBetweenTechnosItems;               
-                }
+            & img {
+                @include ImageSizeTechnos;
+            }
 
-                    & img{
-                        @include ImageSizeTechnos;
-                    }
-                        & p{
-                            @include colorAndDecorationText;
-                        }
+            & p {
+                @include colorAndDecorationText;
             }
         }
+    }
 
-        &__extras{
-            width: 20vw;
+    &__databases {
+        width: 20vw;
+        animation-duration: 5s;
 
-            &__list{
-                height: 92%;
+        &__list {
+            height: 92%;
 
-                & ul{
-                    @include spaceBetweenTechnosItems;               
-                }
+            & ul {
+                @include spaceBetweenTechnosItems;
+            }
 
-                    & img{
-                        @include ImageSizeTechnos;
-                    }
-                        & p{
-                            @include colorAndDecorationText;
-                        }
+            & img {
+                @include ImageSizeTechnos;
+            }
+
+            & p {
+                @include colorAndDecorationText;
             }
         }
+    }
+
+    &__extras {
+        width: 20vw;
+
+        &__list {
+            height: 92%;
+
+            & ul {
+                @include spaceBetweenTechnosItems;
+            }
+
+            & img {
+                @include ImageSizeTechnos;
+            }
+
+            & p {
+                @include colorAndDecorationText;
+            }
+        }
+    }
 }
-

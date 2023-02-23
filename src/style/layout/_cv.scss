@@ -1,78 +1,61 @@
 //Cv 
 
-.cv__container{
+.cv__container {
     width: 100%;
     position: relative;
     top: 64px;
-    //border: solid blue 2px;
     display: flex;
     flex-direction: column;
     border-top: double #CD921E 4px;
-    //  background: rgb(2,0,36);
-        //  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,148,153,1) 100%, rgba(0,212,255,1) 100%);
     background-image: url('../../../public/img/cvBG.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #f6f6f6;
-        & h1{
-            text-align: center;
-            color: #CD921E;
-            text-transform: uppercase;
-            text-decoration: underline double 1px #CD921E;
-            @include titleWeight;
-        }
-    
-        &__page{
-           // display: flex;
-            // justify-content: center;
-             width: 100%;
-            //border: solid red 2px;
-            //margin: 0 auto;
-    
-            &__screenshot{
-               //border: solid green 2px;
-                // width: 60%;
-                 display: flex;
-                justify-content: center;
-                
-    
-                & img{
-                    border: double #CD921E 3px;
-                    margin: 40px 0;
-                    object-fit: cover;
-                    //position: relative;
-                }
-                
-            }
-            
-                &__download{
-                    border: double #551A8B 4px;
-                    border-radius: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    //margin: auto 0;
-                    width: 20%;
-                    height: 6rem;
-                    background: rgb(2, 0, 36);
-                    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
-                    margin: 0 auto 30px auto;
-                    min-width: 30%;
-    
-                    &__item{
-                        width: 100%;
-                        text-align: center;
-                    }
-                        & p{
-                            color: #CCCCCC;
-                        }
-                
-                    
-                }
-    
-    
-        }
-            
+
+    & h1 {
+        text-align: center;
+        color: #CD921E;
+        text-transform: uppercase;
+        text-decoration: underline double 1px #CD921E;
+        @include titleWeight;
     }
-    
+
+    &__page {
+        width: 100%;
+
+        &__screenshot {
+            display: flex;
+            justify-content: center;
+
+            & img {
+                border: double #CD921E 3px;
+                margin: 40px 0;
+                object-fit: cover;
+            }
+
+        }
+        &__download {
+            border: double #551A8B 4px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            height: 6rem;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
+            margin: 0 auto 30px auto;
+            min-width: 30%;
+
+            &__item {
+                width: 100%;
+                text-align: center;
+            }
+
+            & p {
+                color: #CCCCCC;
+            }
+        }
+    }
+}
