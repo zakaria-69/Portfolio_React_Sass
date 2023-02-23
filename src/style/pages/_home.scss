@@ -730,6 +730,104 @@ border-top: dotted #551A8B 2px;
     }
 }
 
+//footer 
+
+.footer__container{
+    position: relative;
+    top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(113,113,113);
+background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
+
+    &__links{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+       
+
+        &__cv{
+            @include footerLinks;
+
+            & a{
+                color: white
+            }
+
+            & a:hover{
+                color: #20a7d8; 
+            }
+
+            & a:active{
+                color: #551A8B; 
+            }
+            
+        }
+
+        &__linkedin{
+            @include footerLinks;
+
+            & a{
+                color: white
+            }
+
+            & a:hover{
+                color: #20a7d8; 
+            }
+
+            & a:active{
+                color: #551A8B; 
+            }
+        }
+
+        &__twitter{           
+            @include footerLinks;
+
+            & a{
+                color: white
+            }
+
+            & a:hover{
+                color: #20a7d8; 
+            }
+
+            & a:active{
+                color: #551A8B; 
+            }
+        }
+        &__github{           
+            @include footerLinks;
+
+            & a{
+                color: white
+            }
+
+            & a:hover{
+                color: #20a7d8; 
+            }
+
+            & a:active{
+                color: #551A8B; 
+            }
+    }
+    }
+
+    & p{
+        text-align: center;
+        font-weight: 700;
+        text-decoration: underline;
+        color: white;
+
+        & .fa-copyright{
+            margin: auto 5px;
+        }    
+    }
+    
+    
+}
+
 @media screen and (max-width : 740px) {
 
 html{

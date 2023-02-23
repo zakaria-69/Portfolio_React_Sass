@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from '../components/Contact';
 import Cv from '../components/Cv';
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Presentation from '../components/Presentation';
 import Projets from '../components/Projets';
@@ -18,6 +19,7 @@ const Home = () => {
                 <Cv />
                 <Projets />
                 <Contact />
+                <Footer />
             </div>
             
                 
