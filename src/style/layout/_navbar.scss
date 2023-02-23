@@ -31,18 +31,18 @@
                     margin: 0 auto;
     
                     &__left {
-                        border-left: dotted 0.1rem #551A8B;
+                        border-left: dotted 0.1rem  #CD921E;
                     }
     
                     & a {
-                        border-right: dotted 0.1rem #551A8B;
+                        border-right: dotted 0.1rem  #CD921E;
                         @include flex_centre;
                         height: 100%;
                         color: #444444;
                         background: #FFFFFF;
                         text-transform: uppercase;
                         font-weight: 800;
-                        color: #551A8B;
+                        color:  #CD921E;
                         /*color: #FFFFFF;
                         background: #232323;
                         text-shadow: 0 0 5px #FFF,

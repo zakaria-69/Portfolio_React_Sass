@@ -8,9 +8,12 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: rgb(113,113,113);
-background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
-
+    border-top: double #CD921E 4px;
+    // background: rgb(113,113,113);
+// background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
+//background: black;
+background-color: #f6f6f6;
+//background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 41%);
     &__links{
         width: 100%;
         display: flex;
@@ -21,7 +24,7 @@ background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
             @include footerLinks;
 
             & a{
-                color: white
+                color:#CD921E;
             }
 
             & a:hover{
@@ -38,7 +41,7 @@ background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
             @include footerLinks;
 
             & a{
-                color: white
+                color:#CD921E;
             }
 
             & a:hover{
@@ -54,7 +57,7 @@ background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
             @include footerLinks;
 
             & a{
-                color: white
+                color:#CD921E;
             }
 
             & a:hover{
@@ -69,7 +72,7 @@ background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
             @include footerLinks;
 
             & a{
-                color: white
+                color:#CD921E;
             }
 
             & a:hover{
@@ -86,7 +89,7 @@ background: radial-gradient(circle, rgba(113,113,113,1) 0%, rgba(6,6,6,1) 100%);
         text-align: center;
         font-weight: 700;
         text-decoration: underline;
-        color: white;
+        color: #CD921E;;
 
         & .fa-copyright{
             margin: auto 5px;

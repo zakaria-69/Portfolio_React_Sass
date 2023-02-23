@@ -12,11 +12,13 @@
     */
     margin: 0;
     padding: 0;
+    background-color: #f6f6f6;
     // nd: rgb(2,0,36);
     // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,148,153,1) 100%, rgba(0,212,255,1) 100%);
-   background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
-    background-size: cover;
+//    background: rgb(2, 0, 36);
+    // background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(177, 37, 125, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    // background-image: url('../../../public/img/presentationBG.jpg');
+    // background-size: cover;
     overflow: hidden;
     //text-transform: uppercase;
     
@@ -31,6 +33,7 @@
         text-transform: uppercase;
         @include titleWeight;
         font-style: italic;
+        color: #CD921E;
     
     }
 
@@ -75,7 +78,7 @@
         }
 
         .seventh {
-            color: white;
+            color: blue;
             @include sizeAnimPresentation;
         }
 
@@ -113,7 +116,7 @@
         //justify-content: space-around;
 
         &__left{
-            border: double white 4px;
+            border: double #CD921E 4px;
             width: 70%;
            // margin-left: 45px;
            // height: 80%;
@@ -128,6 +131,7 @@
             border-radius: 20px ;
             margin: 5px 0;
             padding: 5rem;
+            color: #CD921E;
 
             &__textContent{
                 padding: 20px 0 ;
@@ -138,13 +142,13 @@
                 &__profession{
                     //text-transform: uppercase;
                     text-decoration: underline double 1px #CD921E;
-                    color: #CD921E;
+                    color: #551A8B;
                 }
             }
         }
 
         &__right{
-            border: double white 4px;
+            border: double #CD921E 4px;
             min-height: 60%;
             max-height: 90%;          
             width: 50%;
@@ -160,6 +164,8 @@
             border-radius: 20px ;
             padding:2rem;
             margin-right: 45px;
+            color: #CD921E;
+            
 
             &__img{
                 border: double white 4px;
@@ -169,6 +175,7 @@
                 display: flex;
                 border-radius: 50%;
                 margin-top: 10px;
+                border: double #CD921E 4px;
                
                 & img{
                     width: 100%;

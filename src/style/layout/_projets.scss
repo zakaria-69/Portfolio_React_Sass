@@ -8,13 +8,14 @@
     display: flex;
    align-items: center;
     justify-content: center;
+    background-color: #f6f6f6;
    //background: rgb(32,167,216);
 //background: linear-gradient(0deg, rgba(195,144,241,1) 0%, rgba(32,167,216,1) 100%);
 //background: rgb(32,167,216);
 //background: linear-gradient(0deg, rgba(32,167,216,1) 0%, rgba(0,0,0,0.9948354341736695) 100%);
    & h1{
        text-align: center;
-      color: #551A8B;
+      color: #CD921E;
       text-transform: uppercase;
       text-decoration: underline double 1px;
       @include titleWeight;
@@ -30,7 +31,7 @@
 
    &__slideshow{
        width: 80%;
-       box-shadow: .25rem 0.4rem 0.5rem 0 rgba(85, 26, 139, 0.35);
+       box-shadow: .25rem 0.4rem 0.5rem 0 rgba(205 , 146, 30, 0.35);
        background-color: white;
    
 

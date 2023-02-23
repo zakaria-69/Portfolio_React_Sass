@@ -1,15 +1,15 @@
 @import './utils/_variable';
-@import './utils/animation';
+@import './utils/_animation';
 @import './utils/_mixin';
 @import './base/_init.scss';
-@import './layout/contact.scss';
-@import './layout/cv.scss';
-@import './layout/footer.scss';
-@import './layout/navbar.scss';
-@import './layout/presentation.scss';
-@import './layout/projets.scss';
-@import './layout/sidebar.scss';
-@import './layout/technologies.scss';
+@import './layout/_contact.scss';
+@import './layout/_cv.scss';
+@import './layout/_footer.scss';
+@import './layout/_navbar.scss';
+@import './layout/_presentation.scss';
+@import './layout/_projets.scss';
+@import './layout/_sidebar.scss';
+@import './layout/_technologies.scss';
 @import './pages/_home.scss';
 @import './pages/_notfound.scss';
 

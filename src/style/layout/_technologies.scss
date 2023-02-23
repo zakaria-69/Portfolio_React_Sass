@@ -4,10 +4,12 @@
     top: 64px;
     text-align: center;
     padding:40px ;
+    background-image: url('../../../public/img/technologie_BG.png');
+    
      
    & h1{
-    color: #551A8B;
-    text-decoration: underline 1px double #551A8B;
+    color: #CD921E;
+    text-decoration: underline 1px double #CD921E;
     text-transform: uppercase;
     @include titleWeight;
    }
@@ -23,7 +25,7 @@ justify-content: space-around;
     & h2{
     // border: solid orangered 2px;
     text-decoration: double underline 1px;
-    color: #551A8B ;
+    color: #CD921E ;
     font-weight: 400;
     }
         &__frontend{

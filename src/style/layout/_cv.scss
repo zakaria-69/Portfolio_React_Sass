@@ -7,15 +7,19 @@
     //border: solid blue 2px;
     display: flex;
     flex-direction: column;
-    border-top: dotted #551A8B 2px;
-     background: rgb(2,0,36);
-         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,148,153,1) 100%, rgba(0,212,255,1) 100%);
-    
+    border-top: double #CD921E 4px;
+    //  background: rgb(2,0,36);
+        //  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,148,153,1) 100%, rgba(0,212,255,1) 100%);
+    background-image: url('../../../public/img/cvBG.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #f6f6f6;
         & h1{
             text-align: center;
-            color: white;
+            color: #CD921E;
             text-transform: uppercase;
-            text-decoration: underline double 1px white;
+            text-decoration: underline double 1px #CD921E;
             @include titleWeight;
         }
     
@@ -34,7 +38,7 @@
                 
     
                 & img{
-                    border: double #551A8B 3px;
+                    border: double #CD921E 3px;
                     margin: 40px 0;
                     object-fit: cover;
                     //position: relative;

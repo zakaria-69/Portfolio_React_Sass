@@ -9,11 +9,17 @@
      // justify-content: center;
      align-items: center;
      flex-direction: column;
+     background-image: url('../../../public/img/contact_font_pen_portfolio.jpg');
+     background-size: cover;
+     background-position: 50% 50%;
+     border-top: #CD921E double 4px;
+     
+     
  
      & h1{
          margin: 2rem auto;
-         text-decoration: underline double 1px #551A8B;
-         color: #551A8B;
+         text-decoration: underline double 1px #CD921E;
+         color: #CD921E;
          @include titleWeight;
          text-transform: uppercase;
      }
@@ -33,7 +39,7 @@
          display: flex;
          justify-content: center;
          align-items: center;
-         border-right: #20a7d8 double 4px;
+         border-right: #CD921E double 4px;
          border-radius: 20px;
  
          & form{
@@ -47,21 +53,21 @@
                  margin: 1rem auto;
                  width: 80%;
                  text-transform: uppercase;
-                 text-decoration: double underline #551A8B;
-                 color: #551A8B;
-                 font-weight: 700;
+                 text-decoration: double underline #CD921E;
+                 color: #CD921E;
+                 font-weight: 500;
              }
                  & input{
                      height: 2rem;
                      border-top: none;
                      border-left: none;
                      border-right: none;
-                     border-bottom: solid #c390f1 2px;
+                     border-bottom: solid #CD921E 2px;
                      width: 80%;
                      margin: 0 auto;
                      font-weight: 600;
                      font-size: 1rem;
-                     background-color: #8fe1ff;
+                     background-color: #f6f6f6;
                      border-radius: 5px 5px 0 0;
  
                      &:focus{
@@ -78,7 +84,7 @@
                       max-height: 23rem;
                       min-height: 5rem;
                      margin: 0 auto;
-                     border: solid #20a7d8 2px;
+                     border: solid #CD921E 2px;
  
                      &:focus{
                          outline: none;
@@ -87,8 +93,9 @@
                  }
  
                      & p{
-                         font-weight: 700;
+                         font-weight: 400;
                          text-align: center;
+                         color: white;
                      }
                  
                          & button{
@@ -103,7 +110,7 @@
                              text-transform: uppercase;
  
                              &:hover{
-                                 color: #c390f1;
+                                 color: #CD921E;
                              }
  
                              &:active{
@@ -120,22 +127,22 @@
          justify-content: space-between;
          flex-direction: column;
          padding: 1.1rem 0 10rem 0;
-         border-left: #20a7d8 double 4px;
+         border-left: #CD921E double 4px;
          border-radius: 20px;
  
  
          & h2{
-             text-decoration: underline double #551A8B 1px;
-             color: #551A8B;
+             text-decoration: underline double #CD921E 1px;
+             color: #CD921E;
              font-size: 1rem;
-             font-weight: 700;
+             font-weight: 300;
              text-transform: uppercase;
          }
  
              & a{
-                 background-color: #8fe1ff;
+                 background-color: #f6f6f6;
                  border-radius: 20px;
-                 color: #551A8B;
+                 color: #CD921E;
                  height: 2rem;
                  display: flex;
                  align-items: center;
@@ -144,7 +151,8 @@
                  padding: 0 2rem;
  
                  &:hover{
-                     color: #c390f1;
+                     color: #20a7d8;
+                    
                  }
  
                  &:active{

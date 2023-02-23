@@ -34,6 +34,14 @@
             margin: 20px 0;
         }
 
+        & a{
+            color:  #CD921E;
+
+            &:hover{
+                color: #551A8B;
+            }
+        }
+
         &__link {
             // border: solid black 2px;
             text-align: center;
@@ -49,7 +57,7 @@
         background-color: white;
         font-weight: 500;
         font-size: larger;
-        color: #551A8B;
+        color:  #CD921E;
     }
 
     .toggle__sidebar:hover {
