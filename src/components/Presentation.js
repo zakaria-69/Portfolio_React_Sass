@@ -56,7 +56,7 @@ const Presentation = () => {
                     des langages informatiques. Après quelques projets personnels et ayant vu le pouvoir de ces outils. J'ai
                     vu mon intérêt et mon envie d'en apprendre encore plus, décuplée.
                     <br />
-                        J'ai donc suivi cette voie sur un cursur professionnalisant en titre de
+                        J'ai donc suivi cette voie sur un cursus professionnalisant en titre de
                         <span className='presentation__container__description__left__textContent__profession'> développeur intégrateur Web </span>
                         au cours de l'année 2022 et j'aspire à pouvoir
                         continuer d'apprendre et surtout d'éxercer car c'est selon moi le meilleurs moyen de s'améliorer.

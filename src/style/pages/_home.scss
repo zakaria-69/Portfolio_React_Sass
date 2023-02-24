@@ -78,19 +78,19 @@
         width: 100%;
 
         &__frontend {
-            width: 100%;
+        @include resizingTechnosCards;
         }
 
         &__backend {
-            width: 100%;
+        @include resizingTechnosCards;
         }
 
         &__databases {
-            width: 100%;
+        @include resizingTechnosCards;
         }
 
         &__extras {
-            width: 100%;
+        @include resizingTechnosCards;
         }
     }
 
@@ -128,6 +128,12 @@
             position: initial;
             width: 98%;
         }
+    }
+
+    //projet
+
+    .projets__container__subcontainer{
+        margin: 11rem auto 17rem auto;
     }
 
     //contact

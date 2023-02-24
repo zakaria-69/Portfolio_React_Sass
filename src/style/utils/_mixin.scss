@@ -69,6 +69,11 @@
     margin: 2rem auto;
 }
 
+@mixin resizingTechnosCards{
+    width: 97%;
+    margin: 0 auto;
+}
+
 #c-yup {
     color: tomato;
     text-align: center;
