@@ -49,12 +49,13 @@ const Presentation = () => {
             <div className='presentation__container__description'>
                 <div className='presentation__container__description__left'>
                     <p className='presentation__container__description__left__textContent'>
-                        Depuis très jeune j'ai une appétence pour le monde informatique,le digital,
-                        la technologie.En cherchant à savoir plus en détail comment étaient crée les site internet,
-                        les jeux-vidéos et plus récemment les applications,comment intérragisseaient entre eux les éléments
-                        et les appareils pour obtenir le résultat éscompté,c'est de cette réflexion que m'est venu l'envie d'apprendre
-                        des languages informatique.Après quelques projets personnel et ayant vu le pouvoir de ces outils,j'ai
-                        vu mon intérêt et mon envie d'en apprendre encore plus, décuplée.<br />
+                    Depuis très jeune, j'ai une appétence pour le monde informatique, le digital,
+                    la technologie. En cherchant à savoir plus en détail comment étaient crée les sites internet,
+                    les jeux-vidéos et plus récemment les applications, comment interagissaient entre eux les éléments
+                    et les appareils pour obtenir le résultat escompté, c'est de cette réflexion que m'est venu l'envie d'apprendre
+                    des langages informatiques. Après quelques projets personnels et ayant vu le pouvoir de ces outils. J'ai
+                    vu mon intérêt et mon envie d'en apprendre encore plus, décuplée.
+                    <br />
                         J'ai donc suivi cette voie sur un cursur professionnalisant en titre de
                         <span className='presentation__container__description__left__textContent__profession'> développeur intégrateur Web </span>
                         au cours de l'année 2022 et j'aspire à pouvoir
@@ -67,7 +68,7 @@ const Presentation = () => {
                     </div>
                     <div>
                         <p className='presentation__container__description__right__ofGripSentence'>
-                            La richesse se trouve dans la connaissance,chacun donc à son trésor à partager.
+                            La richesse se trouve dans la connaissance,chacun donc a son trésor à partager.
                         </p>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <p>
                 <i className="fa-regular fa-copyright"></i>
-                2023 |LADJRAFI Zakaria |Tout droits réservés.
+                2023 |LADJRAFI Zakaria |Tous droits réservés.
             </p>
 
         </div>
