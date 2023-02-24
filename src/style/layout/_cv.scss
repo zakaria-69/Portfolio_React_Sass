@@ -51,6 +51,14 @@
             &__item {
                 width: 100%;
                 text-align: center;
+
+                :hover{
+                    color: #f6f6f6;
+                }
+
+                :active{
+                    color: #551A8B;
+                }
             }
 
             & p {

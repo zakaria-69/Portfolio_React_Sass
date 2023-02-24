@@ -105,11 +105,11 @@
                 text-transform: uppercase;
 
                 &:hover {
-                    color: #CD921E;
+                    color: #f6f6f6;
                 }
 
                 &:active {
-                    color: #20a7d8;
+                    color: #551A8B;
                 }
             }
 
@@ -147,7 +147,7 @@
             padding: 0 2rem;
 
             &:hover {
-                color: #20a7d8;
+                color: black;
 
             }
 
@@ -157,7 +157,6 @@
         }
 
         & i {
-            // border: solid red 2px;
             padding: 5px;
         }
     }
