@@ -12,6 +12,13 @@
         padding: 0 20px;
     }
 
+    //presentation 
+
+    .presentation__container__description__left{
+        border: solid blue 2px;
+        padding: 1rem 2rem;
+    }
+
     //sidebar
 
     .sidebar__container {
@@ -161,6 +168,7 @@
 }
 
 @media screen and (max-width : 420px) {
+
     .contact__container__formContainer form textarea {
         max-width: 85vw;
         min-width: 85vw;
