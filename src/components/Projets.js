@@ -24,7 +24,7 @@ const Projets = () => {
                         <div className='projets__container__slideshow__each__slide'>
                             <div className='projets__container__slideshow__each__slide__container'>
                                 <a href='https://zakaria-69.github.io/Booki_projet2_Transformez_une_maquette_en_site_web/'>
-                                    <img src='../../../img_projects_carousel/booki.png' alt='booki_logo' title='booki_projet' />
+                                    <img src='../../../img_projects_carousel/Booki.png' alt='booki_logo' title='booki_projet' />
                                 </a>
                             </div>
                         </div>
