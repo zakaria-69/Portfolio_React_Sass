@@ -14,7 +14,7 @@ const Projets = () => {
     }
 
     return (
-        <div className='projets__container' id='projets'>
+        <section className='projets__container' id='projets'>
             <div>
                 <h1>Projets</h1>
             </div>
@@ -73,7 +73,7 @@ const Projets = () => {
                     </Slide>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

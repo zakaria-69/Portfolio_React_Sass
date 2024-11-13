@@ -56,19 +56,19 @@ const Presentation = () => {
                     des langages informatiques. Après quelques projets personnels et ayant vu le pouvoir de ces outils. J'ai
                     vu mon intérêt et mon envie d'en apprendre encore plus, décuplée.
                     <br />
-                        J'ai donc suivi cette voie sur un cursus professionnalisant en titre de
+                        J'ai donc validé mon bac +2 en qualité de
                         <span className='presentation__container__description__left__textContent__profession'> développeur intégrateur Web </span>
-                        au cours de l'année 2022 et j'aspire à pouvoir
+                        au cours de l'année 2022, puis j'ai poursuivi sur un cursur bac +3/4 en tant que <span className='presentation__container__description__left__textContent__profession'> Concepteur développeur d'applications </span> et j'aspire à pouvoir
                         continuer d'apprendre et surtout d'éxercer car c'est selon moi le meilleurs moyen de s'améliorer.
                     </p>
                 </div>
                 <div className='presentation__container__description__right'>
                     <div className='presentation__container__description__right__img'>
-                        <img src='../../../img/profil-cv.jpg'></img>
+                        <img src='../../../img/profil-cv.jpg' alt="img de profil"></img>
                     </div>
                     <div>
                         <p className='presentation__container__description__right__ofGripSentence'>
-                            La richesse se trouve dans la connaissance,chacun donc a son trésor à partager.
+                        Un jour sans rien apprendre est un jour perdu, alors, continuons d'échanger et d'apprendre ensemble !
                         </p>
                     </div>
                 </div>

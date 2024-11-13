@@ -61,7 +61,7 @@ const Contact = () => {
 
     const sendFeedback = (serviceId, templateId, variables) => {
         emailjs
-            .send(serviceId, templateId, variables, process.env.REACT_APP_API_USERID)
+            .send(serviceId, templateId, variables,process.env.REACT_APP_API_USERID)
             .then((res) => {
                 console.log("succes", res)
             })
@@ -140,10 +140,10 @@ const Contact = () => {
                 </div>
                 <div className='contact__container__mesInfos'>
                     <h2>Mes infos</h2>
-                    <a href='mailto:zak.ladjrafi@gmail.com'>
+                    <a href='mailto:ladjrafi.zak@gmail.com'>
                         <i className="fa-solid fa-envelope">
                         </i>
-                        zak.ladjrafi@gmail.com
+                        ladjrafi.zak@gmail.com
                     </a>
                     <br />
                     <a href='tel:0782479774'>
@@ -152,7 +152,7 @@ const Contact = () => {
                         +33782479774
                     </a>
                     <br />
-                    <a href='https://goo.gl/maps/Y9xoEBogH4r2j7iP9' target="__blank"><i className="fa-solid fa-location-dot"></i>2 rue de la Mairie 69340</a>
+                    <a href='https://maps.app.goo.gl/WLhcovmYiMB2in9g7' target="__blank"><i className="fa-solid fa-location-dot"></i>Lyon</a>
                 </div>
             </div>
         </div>

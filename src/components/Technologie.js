@@ -15,16 +15,6 @@ const Technologie = () => {
                         <div className='technos__container__frontend__list'>
                             <ul>
                                 <li className='technos__container__frontend__list__item'>
-                                    <p>Html</p>
-                                    <img src='../../../logo_technos_portfolio/Html5_logo.png' alt='logo_html'>
-                                    </img>
-                                </li>
-                                <li className='technos__container__frontend__list__item'>
-                                    <p>Css</p>
-                                    <img src='../../../logo_technos_portfolio/Css3_logo.png' alt='logo_css'>
-                                    </img>
-                                </li>
-                                <li className='technos__container__frontend__list__item'>
                                     <p>Javascript</p>
                                     <img src='../../../logo_technos_portfolio/Javascript_logo.png' alt='logo_javascript'>
                                     </img>
@@ -32,6 +22,16 @@ const Technologie = () => {
                                 <li className='technos__container__frontend__list__item'>
                                     <p>React.js</p>
                                     <img src='../../../logo_technos_portfolio/React_logo.png' alt='logo_react.js'>
+                                    </img>
+                                </li>
+                                <li className='technos__container__frontend__list__item'>
+                                    <p>React native</p>
+                                    <img src='../../../logo_technos_portfolio/react_native_logo.png' alt='logo_react_native'>
+                                    </img>
+                                </li>
+                                <li className='technos__container__frontend__list__item'>
+                                    <p>Angular</p>
+                                    <img src='../../../logo_technos_portfolio/angular_logo.jpg' alt='logo_angular'>
                                     </img>
                                 </li>
                             </ul>
@@ -54,8 +54,13 @@ const Technologie = () => {
                                     </img>
                                 </li>
                                 <li className='technos__container__backend__list__item'>
-                                    <p>Sequelize</p>
-                                    <img src='../../../logo_technos_portfolio/Sequelize_logo.png' alt='logo_sequelize'>
+                                    <p>Java</p>
+                                    <img src='../../../logo_technos_portfolio/java_logo.png' alt='logo_java'>
+                                    </img>
+                                </li>
+                                <li className='technos__container__backend__list__item'>
+                                    <p>PHP</p>
+                                    <img src='../../../logo_technos_portfolio/php_logo.png' alt='logo_PHP'>
                                     </img>
                                 </li>
                             </ul>
@@ -77,6 +82,16 @@ const Technologie = () => {
                                     <img src='../../../logo_technos_portfolio/Mysql_logo.png' alt='logo_mysql'>
                                     </img>
                                 </li>
+                                <li className='technos__container__databases__list__item'>
+                                    <p>Sequelize</p>
+                                    <img src='../../../logo_technos_portfolio/Sequelize_logo.png' alt='logo_sequelize'>
+                                    </img>
+                                </li>
+                                <li className='technos__container__databases__list__item'>
+                                    <p>Prisma</p>
+                                    <img src='../../../logo_technos_portfolio/prisma_logo2.jpg' alt='logo_prisma'>
+                                    </img>
+                                </li>                                
                             </ul>
                         </div>
                     </div>
@@ -92,8 +107,8 @@ const Technologie = () => {
                                     </img>
                                 </li>
                                 <li className='technos__container__extras__list__item'>
-                                    <p>VsCode</p>
-                                    <img src='../../../logo_technos_portfolio/Vscode_logo.png' alt='logo_vscode'>
+                                    <p>GraphQL</p>
+                                    <img src='../../../logo_technos_portfolio/graphql_logo.png' alt='logo_grahpql'>
                                     </img>
                                 </li>
                                 <li className='technos__container__extras__list__item'>
